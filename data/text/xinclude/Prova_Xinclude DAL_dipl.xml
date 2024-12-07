@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text xml:id="Semi-diplomatic">
+      <body>
+         <pb n="22v" xml:id="DALB_fol_22v"/>
+         <lb n="1a"/>
+         <lb n="2a"/>
+         <lb n="3a"/>
+         <lb n="4a"/>
+         <lb n="5a"/>
+         <lb n="6a"/>
+         <lb n="7a"/>
+         <lb n="8a"/>
+         <lb n="9a"/>
+         <lb n="10a"/>
+         <lb n="11a"/>
+         <lb n="12a"/>
+         <lb n="13a"/>
+         <lb n="14a"/>
+         <lb n="15a"/>
+         <lb n="16a"/>
+         <lb n="17a"/>
+         <lb n="18a"/>
+         <lb n="19a"/>
+         <lb n="20a"/>
+         <lb n="21a"/>
+         <lb n="22a"/>
+         <lb n="23a"/>
+         <lb n="24a"/>
+         <lb n="1b"/>
+         <lb n="2b"/>
+         <lb n="3b"/>
+         <lb n="4b"/>
+         <lb n="5b"/>
+         <lb n="6b"/>
+         <lb n="7b"/>
+         <lb n="8b"/>
+         <lb n="9b"/>
+         <lb n="10b"/>
+         <lb n="11b"/>
+         <lb n="12b"/>
+         <lb n="13b"/>
+         <lb n="14b"/>
+         <!-- INIZIO DIPLOMATICA -->
+         <l n="1"><lb n="15b"/>
+            <choice>
+               <orig><!-- <add type="catchletter" place="margin">z</add><space
+                     extent="two-line-high character"/> --><g ref="#uosup_uo"/></orig>
+               <reg>Zuo</reg>
+            </choice> egiptten nectanibus </l>
+         <l n="2"><lb n="16b"/>
+            <choice>
+               <orig>k<g ref="#ucirc_ü"/>ng</orig>
+               <reg>küng</reg>
+            </choice> was <choice>
+               <orig>al<g ref="#slongdes"/></orig>
+               <reg>als</reg>
+            </choice> ich von </l>
+         <l n="3"><lb n="17b"/> im <choice>
+               <orig>ge<g ref="#slongdes"/>chriben</orig>
+               <reg>geschriben</reg>
+            </choice> las in <choice>
+               <orig>a<g ref="#slongdes"/>tronimy</orig>
+               <reg>astronimy</reg>
+            </choice></l>
+         <l n="4"><lb n="18b"/>
+            <choice>
+               <orig><g ref="#slongdes"/>inem</orig>
+               <reg>sinem</reg>
+            </choice> rich was er <choice>
+               <orig><add type="separator" hand="unknown">/</add></orig>
+               <reg/>
+            </choice>
+            <choice>
+               <orig>vnd</orig>
+               <reg>und</reg>
+            </choice>
+            <choice>
+               <orig><g ref="#slongdes"/>in</orig>
+               <reg>sin</reg>
+            </choice> ge</l>
+         <l n="5"><lb n="19b"/>lich niendert noch in nigrama</l>
+         <l n="6"><lb n="20b"/>cye die wont im eigenlichen</l>
+         <l n="7"><lb n="21b"/>by eins tages kam es 
+            <choice>
+               <orig>al<g ref="#slongdes"/>o</orig>
+               <reg>also</reg>
+            </choice>
+            <choice>
+               <orig><abbr>dz</abbr></orig>
+               <reg><expan>d<ex>a</ex>z</expan></reg>
+            </choice>
+         </l>
+         <l n="8"><lb n="22b"/>dem 
+            <choice>
+               <orig>k<g ref="#ucirc_ü"/>nge</orig>
+               <reg>künge</reg>
+            </choice> nettanibo 
+            <choice>
+               <orig><abbr>bott<am><g ref="#emacr_en"/></am></abbr></orig>
+               <reg><expan>botte<ex>n</ex></expan></reg>
+            </choice>
+         </l>
+         <l n="9"><lb n="23b"/> wurden 
+            <choice>
+               <orig>ge<g ref="#slongdes"/>ant</orig>
+               <reg>gesant</reg>
+            </choice> von den
+         </l>
+         <pb n="23r" xml:id="DALB_fol_23r"/>
+         <l n="10"><lb n="1a"/>
+            <choice>
+               <orig>f<g ref="#ucirc_ü"/>r<g ref="#slongdes"/>ten</orig>
+               <reg>fürsten</reg>
+            </choice>
+            <choice>
+               <orig>v<g ref="#slongdes"/></orig>
+               <reg>us</reg>
+            </choice>
+            <choice>
+               <orig><abbr><am><g ref="#pbardes"/></am><g ref="#slongdes"/>arum</abbr></orig>
+               <reg><expan>P<ex>er</ex>sarum</expan></reg>
+            </choice> lant <!-- toponimo con lant? -->
+            <choice>
+               <orig><abbr>dz</abbr></orig>
+               <reg><expan>d<ex>a</ex>z</expan></reg>
+            </choice> er</l>
+         <l n="11"><lb n="2a"/> im woltte <choice>
+               <orig><g ref="#slongdes"/>chaden</orig>
+               <reg>schaden</reg>
+            </choice>mit hers kr</l>
+         <l n="12"><lb n="3a"/>eften <choice>
+               <orig><g ref="#vcirc_ü"/>ber</orig>
+               <reg>über</reg>
+            </choice> laden dar <choice>
+               <orig>vf</orig>
+               <reg>uf</reg>
+            </choice> acht er</l>
+         <l n="13"><lb n="4a"/> klein er gie in <choice>
+               <orig><g ref="#slongdes"/>in</orig>
+               <reg>sin</reg>
+            </choice> kamer <choice>
+               <orig><add type="separator" hand="unknown">/</add></orig>
+               <reg/>
+            </choice> ein</l>
+         <l n="14"><lb n="5a"/>
+            <choice>
+               <orig>vnd</orig>
+               <reg>und</reg>
+            </choice>
+            <choice>
+               <orig><g ref="#slongdes"/>aczte</orig>
+               <reg>saczte</reg>
+            </choice>
+            <choice>
+               <orig>f<g ref="#ucirc_ü"/>r</orig>
+               <reg>für</reg>
+            </choice>
+            <choice>
+               <orig><g ref="#slongdes"/>ich</orig>
+               <reg>sich</reg>
+            </choice> ein bekelin</l>
+         <l n="15"><lb n="6a"/>regen <choice>
+               <orig>wa<g ref="#slongdes"/><g ref="#slongdes"/>er</orig>
+               <reg>wasser</reg>
+            </choice> gos er dar in</l>
+         <l n="16"><lb n="7a"/>in die hant nam er ein erin <choice>
+               <orig>r<g ref="#uosup_uo"/>t</orig>
+               <reg>ruot</reg>
+            </choice></l>
+         <l n="17"><lb n="8a"/>die im was zem <choice>
+               <orig>z<g ref="#uosup_ou"/>ffer</orig>
+               <reg>zouffer</reg>
+            </choice>
+            <choice>
+               <orig>g<g ref="#uosup_uo"/>t</orig>
+               <reg>guot</reg>
+            </choice> die</l>
+         <l n="18"><lb n="9a"/>begunde er <choice>
+               <orig>be<g ref="#slongdes"/>weren</orig>
+               <reg>besweren</reg>
+            </choice> ze hant <choice>
+               <orig><abbr>dz</abbr></orig>
+               <reg><expan>d<ex>a</ex>z</expan></reg>
+            </choice></l>
+         <l n="19"><lb n="10a"/>im wurden die erkant die in</l>
+         <l n="20"><lb n="11a"/>in <choice>
+               <orig>
+                  <subst>
+                     <del hand="#H1">in</del>
+                     <add place="inline" rend="overwritten" hand="#H1"><g ref="#slongdes"/>in</add>
+                  </subst>
+               </orig>
+               <!-- problema add del -->
+               <reg>sin</reg>
+            </choice> lant <choice>
+               <orig><g ref="#slongdes"/>oltten</orig>
+               <reg>soltten</reg>
+            </choice>
+            <choice>
+               <orig>vnd</orig>
+               <reg>und</reg>
+            </choice> in <choice>
+               <orig><abbr>bet<am><g ref="#wcirc_wi"/></am></abbr></orig>
+               <reg><expan>betw<ex>i</ex></expan></reg>
+            </choice></l>
+         <l n="21"><lb n="12a"/>ngen <choice>
+               <orig><add type="separator" hand="unknown">/</add></orig>
+               <reg/>
+            </choice> woltten <choice>
+               <orig><abbr>dz</abbr></orig>
+               <reg><expan>d<ex>a</ex>z</expan></reg>
+            </choice> er da wider</l>
+         <l n="22"><lb n="13a"/>
+            <choice>
+               <orig><g ref="#slongdes"/>acztte</orig>
+               <reg>sacztte</reg>
+            </choice> ze <choice>
+               <orig>h<g ref="#uosup_uo"/>t</orig>
+               <reg>huot</reg>
+            </choice>
+            <choice>
+               <orig>f<g ref="#ucirc_ü"/>r<g ref="#slongdes"/>ten</orig>
+               <reg>fürsten</reg>
+            </choice>
+            <choice>
+               <orig>vnd</orig>
+               <reg>und</reg>
+            </choice>
+            <choice>
+               <orig><abbr>ritt<am><g ref="#er"/></am></abbr></orig>
+               <reg><expan>ritt<ex>er</ex></expan></reg>
+            </choice></l>
+         <l n="23"><lb n="14a"/>
+            <choice>
+               <orig>g<g ref="#uosup_uo"/>t</orig>
+               <reg>guot</reg>
+            </choice> do komen im mer <choice>
+               <orig><abbr>dz</abbr></orig>
+               <reg><expan>d<ex>a</ex>z</expan></reg>
+            </choice> der </l>
+         <l n="24"><lb n="15a"/>
+            <choice>
+               <orig>k<g ref="#ucirc_ü"/>ng</orig>
+               <reg>küng</reg>
+            </choice>
+            <choice>
+               <orig><abbr><am><g ref="#pbardes"/></am><g ref="#slongdes"/>arum</abbr></orig>
+               <reg><expan>P<ex>er</ex>sarum</expan></reg>
+            </choice> wer <choice>
+               <orig>kome <subst>
+                     <del rend="scraped">men</del>
+                     <!-- problema del - add -->
+                     <add place="inline">n</add>
+                  </subst>
+               </orig>
+               <reg>komen</reg>
+            </choice></l>
+         <l n="25"><lb n="16a"/>in <choice>
+               <orig><g ref="#slongdes"/>in</orig>
+               <reg>sin</reg>
+            </choice> lant <choice>
+               <orig>vnd</orig>
+               <reg>und</reg>
+            </choice> in <choice>
+               <orig>r<g ref="#uosup_ou"/>bt</orig>
+               <reg>roubt</reg>
+            </choice>
+            <choice>
+               <orig><add type="separator" hand="unknown">/</add></orig>
+               <reg/>
+            </choice>
+            <choice>
+               <orig>vnd</orig>
+               <reg>und</reg>
+            </choice>
+            <choice>
+               <orig><abbr>br<am><g ref="#amacr_an"/></am>nt</abbr></orig>
+               <reg><expan>bra<ex>n</ex>nt</expan></reg>
+            </choice></l>
+         <l n="27"><lb n="17a"/>nektanibus der ward <choice>
+               <orig>vnfro</orig>
+               <reg>unfro</reg>
+            </choice>
+            <choice>
+               <orig>z<g ref="#uosup_uo"/></orig>
+               <reg>zuo</reg>
+            </choice></l>
+         <l n="28"><lb n="18a"/>den botten <choice>
+               <orig><g ref="#slongdes"/>prach</orig>
+               <reg>sprach</reg>
+            </choice> er do du <choice>
+               <orig><g ref="#slongdes"/>olt</orig>
+               <reg>solt</reg>
+            </choice></l>
+         <l n="29"><lb n="19a"/>wider hein varn die <choice>
+               <orig>ve<g ref="#slongdes"/>ti</orig>
+               <reg>vesti</reg>
+            </choice>
+            <choice>
+               <orig><add type="separator" hand="unknown">/</add></orig>
+               <reg/>
+            </choice>
+            <choice>
+               <orig>hei<g ref="#slongdes"/></orig>
+               <reg>heis</reg>
+            </choice></l>
+         <l n="30"><lb n="20a"/>wol bewarn ze hant <choice>
+               <orig><g ref="#slongdes"/>prach</orig>
+               <reg>sprach</reg>
+            </choice>
+            <choice>
+               <orig><abbr>d<am><g ref="#er"/></am></abbr></orig>
+               <reg><expan>d<ex>er</ex></expan></reg>
+            </choice></l>
+         <l n="31"><lb n="21a"/>botte do <choice>
+               <orig>z<g ref="#uosup_uo"/></orig>
+               <reg>zuo</reg>
+            </choice> dem <choice>
+               <orig>k<g ref="#ucirc_ü"/>ng</orig>
+               <reg>küng</reg>
+            </choice> nektanibo</l>
+         <l n="32"><lb n="22a"/>du <choice>
+               <orig>rede<g ref="#slongdes"/>t</orig>
+               <reg>redest</reg>
+            </choice> her gar forchtlich</l>
+         <l n="33"><lb n="23a"/>
+            <choice>
+               <orig>vnd</orig>
+               <reg>und</reg>
+            </choice> nicht <choice>
+               <orig>al<g ref="#slongdes"/></orig>
+               <reg>als</reg>
+            </choice> ein <choice>
+               <orig>f<g ref="#ucirc_ü"/>r<g ref="#slongdes"/>t</orig>
+               <reg>fürst</reg>
+            </choice> rich sid</l>
+         <l n="34"><lb n="24a"/>du dich dar an <choice>
+               <orig>la<g ref="#slongdes"/>t</orig>
+               <reg>last</reg>
+            </choice>
+            <choice>
+               <orig><abbr>dz</abbr></orig>
+               <reg><expan>d<ex>a</ex>z</expan></reg>
+            </choice> du der</l>
+         <l n="35"><lb n="1b"/>
+            <choice>
+               <orig>l<g ref="#ucirc_iu"/>t</orig>
+               <reg>liut</reg>
+            </choice> vil <choice>
+               <orig>ha<g ref="#slongdes"/>t</orig>
+               <reg>hast</reg>
+            </choice> die mengi der</l>
+         <l n="36"><lb n="2b"/>
+            <choice>
+               <orig>l<g ref="#ucirc_iu"/>tten</orig>
+               <reg>liutten</reg>
+            </choice>
+            <choice>
+               <orig>i<g ref="#slongdes"/>t</orig>
+               <reg>ist</reg>
+            </choice>
+            <choice>
+               <orig><g ref="#slongdes"/>eltten</orig>
+               <reg>seltten</reg>
+            </choice>
+            <choice>
+               <orig>g<g ref="#uosup_uo"/>t</orig>
+               <reg>guot</reg>
+            </choice>
+            <choice>
+               <orig><g ref="#slongdes"/>i</orig>
+               <reg>si</reg>
+            </choice> haben</l>
+         <l n="37"><lb n="3b"/>den vereintten <choice>
+               <orig>m<g ref="#uosup_uo"/>t</orig>
+               <reg>muot</reg>
+            </choice> ze der rede</l>
+         <l n="38"><lb n="4b"/>
+            <choice>
+               <orig><g ref="#slongdes"/>weig</orig>
+               <reg>sweig</reg>
+            </choice> er do in <choice>
+               <orig><g ref="#slongdes"/>ini</orig>
+               <reg>sini</reg>
+            </choice> kamer gieng</l>
+         <l n="39"><lb n="5b"/>er do <choice>
+               <orig>vnd</orig>
+               <reg>und</reg>
+            </choice> wolt mit <choice>
+               <orig>z<g ref="#uosup_ou"/>ber</orig>
+               <reg>zouber</reg>
+            </choice>
+            <choice>
+               <orig><abbr>vind<am><g ref="#emacr_en"/></am></abbr></orig>
+               <reg><expan>vinde<ex>n</ex></expan></reg>
+            </choice></l>
+         <l n="40"><lb n="6b"/>ob er <choice>
+               <orig><g ref="#slongdes"/>in</orig>
+               <reg>sin</reg>
+            </choice> vigent <choice>
+               <orig>m<g ref="#oesup"/>cht</orig>
+               <reg>moecht</reg>
+            </choice>
+            <choice>
+               <orig><abbr><g ref="#vcirc_ü"/>berwind<am><g ref="#emacr_en"/></am></abbr></orig>
+               <reg><expan>überwinde<ex>n</ex></expan></reg>
+            </choice></l>
+         <l n="41"><lb n="7b"/>do er des nicht envant ab <choice>
+               <orig><g ref="#slongdes"/>neid</orig>
+               <reg>sneid</reg>
+            </choice></l>
+         <l n="42"><lb n="8b"/>er <choice>
+               <orig><g ref="#slongdes"/>in</orig>
+               <reg>sin</reg>
+            </choice> hor ze hant er verwand</l>
+         <l n="43"><lb n="9b"/>let <choice>
+               <orig><g ref="#slongdes"/>in</orig>
+               <reg>sin</reg>
+            </choice>
+            <choice>
+               <orig>ge<g ref="#slongdes"/>talt</orig>
+               <reg>gestalt</reg>
+            </choice>
+            <choice>
+               <orig><g ref="#slongdes"/>inen</orig>
+               <reg>sinen</reg>
+            </choice>
+            <choice>
+               <orig><g ref="#slongdes"/>chrin</orig>
+               <reg>schrin</reg>
+            </choice>
+            <choice>
+               <orig>hie<g ref="#slongdes"/></orig>
+               <reg>hies</reg>
+            </choice></l>
+         <l n="44"><lb n="10b"/>er <choice>
+               <orig>f<g ref="#ucirc_ü"/>llen</orig>
+               <reg>füllen</reg>
+            </choice> balt mit <choice>
+               <orig><g ref="#slongdes"/>chacz</orig>
+               <reg>schacz</reg>
+            </choice>
+            <choice>
+               <orig>vnd</orig>
+               <reg>und</reg>
+            </choice></l>
+         <l n="45"><lb n="11b"/>mit golde <choice>
+               <orig>al<g ref="#slongdes"/></orig>
+               <reg>als</reg>
+            </choice> ers den haben</l>
+         <l n="46"><lb n="12b"/>woltte da mit wolt er <choice>
+               <orig><g ref="#slongdes"/>ich</orig>
+               <reg>sich</reg>
+            </choice> fri</l>
+         <l n="47"><lb n="13b"/>
+            <choice>
+               <orig><g ref="#slongdes"/>ten</orig>
+               <reg>sten</reg>
+            </choice> ze andren <choice>
+               <orig><g ref="#slongdes"/>inen</orig>
+               <reg>sinen</reg>
+            </choice>
+            <choice>
+               <orig>li<g ref="#slongdes"/>ten</orig>
+               <reg>listen</reg>
+            </choice> hie</l>
+         <l n="48"><lb n="14b"/>mit rumet er die <choice>
+               <orig>ve<g ref="#slongdes"/>te</orig>
+               <reg>veste</reg>
+            </choice>
+            <choice>
+               <orig><g ref="#slongdes"/>in</orig>
+               <reg>sin</reg>
+            </choice>
+            <choice>
+               <orig>vnd</orig>
+               <reg>und</reg>
+            </choice></l>
+         <l n="49"><lb n="15b"/>kam <choice>
+               <orig>z<g ref="#uosup_uo"/></orig>
+               <reg>zuo</reg>
+            </choice> der <choice>
+               <orig><g ref="#slongdes"/>tat</orig>
+               <reg>stat</reg>
+            </choice>
+            <choice>
+               <orig>belu<g ref="#slongdes"/>in</orig>
+               <reg>belusin</reg>
+            </choice> da nach</l>
+         <l n="50"><lb n="16b"/>ze ethyopi in <choice>
+               <orig><abbr>dz</abbr></orig>
+               <reg><expan>d<ex>a</ex>z</expan></reg>
+            </choice> land an leit er</l>
+         <l n="51"><lb n="17b"/>wis beinin gewant <choice>
+               <orig><abbr>dz</abbr></orig>
+               <reg><expan>d<ex>a</ex>z</expan></reg>
+            </choice> er ze</l>
+         <l n="52"><lb n="18b"/>mazidonj wurd erkant <choice>
+               <orig>f<g ref="#ucirc_ü"/>r</orig>
+               <reg>für</reg>
+            </choice></l>
+         <l n="53"><lb n="19b"/>einen <choice>
+               <orig>wi<g ref="#slongdes"/><g ref="#slongdes"/>agen</orig>
+               <reg>wissagen</reg>
+            </choice> dar <choice>
+               <orig>ge<g ref="#slongdes"/>ant</orig>
+               <reg>gesant</reg>
+            </choice></l>
+         <l n="54"><lb n="20b"/>durch der thyopen er <choice>
+               <orig>vnd</orig>
+               <reg>und</reg>
+            </choice>
+            <choice>
+               <orig>wi<g ref="#slongdes"/></orig>
+               <reg>wis</reg>
+            </choice></l>
+         <l n="55"><lb n="21b"/>
+            <choice>
+               <orig><g ref="#slongdes"/>agtte</orig>
+               <reg>sagtte</reg>
+            </choice>
+            <choice>
+               <orig>wi<g ref="#slongdes"/>lichen</orig>
+               <reg>wislichen</reg>
+            </choice> armen <choice>
+               <orig>vnd</orig>
+               <reg>und</reg>
+            </choice></l>
+         <l n="56"><lb n="22b"/>rich <choice>
+               <orig><g ref="#slongdes"/>i</orig>
+               <reg>si</reg>
+            </choice> batten in <choice>
+               <orig><g ref="#slongdes"/>agen</orig>
+               <reg>sagen</reg>
+            </choice> do von</l>
+         <l n="57"><lb n="23b"/>dem <choice>
+               <orig>k<g ref="#ucirc_ü"/>nge</orig>
+               <reg>künge</reg>
+            </choice> niktanibo <choice>
+               <orig>al<g ref="#slongdes"/></orig>
+               <reg>als</reg>
+            </choice> er</l>
+         <l n="58"><lb n="24b"/>die froge vernam er rette</l>
+         <l n="59"><lb n="25b"/>
+            <choice>
+               <orig>al<g ref="#slongdes"/></orig>
+               <reg>als</reg>
+            </choice> ein <choice>
+               <orig>wi<g ref="#slongdes"/><g ref="#slongdes"/>er</orig>
+               <reg>wisser</reg>
+            </choice>
+            <choice>
+               <orig><add type="separator" hand="unknown">/</add></orig>
+               <reg/>
+            </choice> man <choice>
+               <orig><g ref="#slongdes"/>in</orig>
+               <reg>sin</reg>
+            </choice>
+            <choice>
+               <orig>la<g ref="#slongdes"/>ter</orig>
+               <reg>laster</reg>
+            </choice></l>
+         <pb n="23v" xml:id="DALB_fol_23v"/>
+         <l n="60"><lb n="1a"/>Wolt er nicht <choice>
+               <orig><g ref="#slongdes"/>agen</orig>
+               <reg>sagen</reg>
+            </choice> die wil er</l>
+         <l n="61"><lb n="2a"/>es mocht vertagen</l>
+         <l n="62"><lb n="3a"/>
+            <choice>
+               <orig><hi ana="initial">D</hi>o</orig>
+               <!-- initial + catchletter -->
+               <reg>Do</reg>
+            </choice> kam es <choice>
+               <orig>z<g ref="#uosup_uo"/></orig>
+               <reg>zuo</reg>
+            </choice> den zitten</l>
+         <l n="63">
+            <lb n="4"/>
+         </l>
+         <l n="64"/>
+         <l n="65"/>
+         <l n="66"/>
+         <l n="67"/>
+         <l n="68"/>
+         <l n="69"/>
+         <pb n="24r" xml:id="DALB_fol_24r"/>
+         <pb n="24v" xml:id="DALB_fol_24v"/>
+         <pb n="25r" xml:id="DALB_fol_25r"/>
+         <pb n="25v" xml:id="DALB_fol_25v"/>
+         <pb n="26r" xml:id="DALB_fol_26r"/>
+         <pb n="26v" xml:id="DALB_fol_26v"/>
+         <pb n="27r" xml:id="DALB_fol_27r"/>
+         <pb n="27v" xml:id="DALB_fol_27v"/>
+         <pb n="28r" xml:id="DALB_fol_28r"/>
+         <pb n="28v" xml:id="DALB_fol_28v"/>
+         <pb n="29r" xml:id="DALB_fol_29r"/>
+         <pb n="29v" xml:id="DALB_fol_29v"/>
+         
+         <pb n="30r" xml:id="DALB_fol_30r"/>
+         <pb n="30v" xml:id="DALB_fol_30v"/>
+         <pb n="31r" xml:id="DALB_fol_31r"/>
+         <pb n="31v" xml:id="DALB_fol_31v"/>
+         <pb n="32r" xml:id="DALB_fol_32r"/>
+         <pb n="32v" xml:id="DALB_fol_32v"/>
+         <pb n="33r" xml:id="DALB_fol_33r"/>
+         <pb n="33v" xml:id="DALB_fol_33v"/>
+         <pb n="34r" xml:id="DALB_fol_34r"/>
+         <pb n="34v" xml:id="DALB_fol_34v"/>
+         <pb n="35r" xml:id="DALB_fol_35r"/>
+         <pb n="35v" xml:id="DALB_fol_35v"/>
+         <pb n="36r" xml:id="DALB_fol_36r"/>
+         <pb n="36v" xml:id="DALB_fol_36v"/>
+         <pb n="37r" xml:id="DALB_fol_37r"/>
+         <pb n="37v" xml:id="DALB_fol_37v"/>
+         <pb n="38r" xml:id="DALB_fol_38r"/>
+         <pb n="38v" xml:id="DALB_fol_38v"/>
+         <pb n="39r" xml:id="DALB_fol_39r"/>
+         <pb n="39v" xml:id="DALB_fol_39v"/>
+         
+         <pb n="40r" xml:id="DALB_fol_40r"/>
+         <pb n="40v" xml:id="DALB_fol_40v"/>
+         <pb n="41r" xml:id="DALB_fol_41r"/>
+         <pb n="41v" xml:id="DALB_fol_41v"/>
+         <pb n="42r" xml:id="DALB_fol_42r"/>
+         <pb n="42v" xml:id="DALB_fol_42v"/>
+         <pb n="43r" xml:id="DALB_fol_43r"/>
+         <pb n="43v" xml:id="DALB_fol_43v"/>
+         <pb n="44r" xml:id="DALB_fol_44r"/>
+         <pb n="44v" xml:id="DALB_fol_44v"/>
+         <pb n="45r" xml:id="DALB_fol_45r"/>
+         <pb n="45v" xml:id="DALB_fol_45v"/>
+         <pb n="46r" xml:id="DALB_fol_46r"/>
+         <pb n="46v" xml:id="DALB_fol_46v"/>
+         <pb n="47r" xml:id="DALB_fol_47r"/>
+         <pb n="47v" xml:id="DALB_fol_47v"/>
+         <pb n="48r" xml:id="DALB_fol_48r"/>
+         <pb n="48v" xml:id="DALB_fol_48v"/>
+         <pb n="49r" xml:id="DALB_fol_49r"/>
+         <pb n="49v" xml:id="DALB_fol_49v"/>
+         
+         <pb n="50r" xml:id="DALB_fol_50r"/>
+         <pb n="50v" xml:id="DALB_fol_50v"/>
+         <pb n="51r" xml:id="DALB_fol_51r"/>
+         <pb n="51v" xml:id="DALB_fol_51v"/>
+         <pb n="52r" xml:id="DALB_fol_52r"/>
+         <pb n="52v" xml:id="DALB_fol_52v"/>
+         <pb n="53r" xml:id="DALB_fol_53r"/>
+         <pb n="53v" xml:id="DALB_fol_53v"/>
+         <pb n="54r" xml:id="DALB_fol_54r"/>
+         <pb n="54v" xml:id="DALB_fol_54v"/>
+         <pb n="55r" xml:id="DALB_fol_55r"/>
+         <pb n="55v" xml:id="DALB_fol_55v"/>
+         <pb n="56r" xml:id="DALB_fol_56r"/>
+         <pb n="56v" xml:id="DALB_fol_56v"/>
+         <pb n="57r" xml:id="DALB_fol_57r"/>
+         <pb n="57v" xml:id="DALB_fol_57v"/>
+         <pb n="58r" xml:id="DALB_fol_58r"/>
+         <pb n="58v" xml:id="DALB_fol_58v"/>
+         <pb n="59r" xml:id="DALB_fol_59r"/>
+         <pb n="59v" xml:id="DALB_fol_59v"/>
+         
+         <pb n="60r" xml:id="DALB_fol_60r"/>
+         <pb n="60v" xml:id="DALB_fol_60v"/>
+         <pb n="61r" xml:id="DALB_fol_61r"/>
+         <pb n="61v" xml:id="DALB_fol_61v"/>
+         <pb n="62r" xml:id="DALB_fol_62r"/>
+         <pb n="62v" xml:id="DALB_fol_62v"/>
+         <pb n="63r" xml:id="DALB_fol_63r"/>
+         <pb n="63v" xml:id="DALB_fol_63v"/>
+         <pb n="64r" xml:id="DALB_fol_64r"/>
+         <pb n="64v" xml:id="DALB_fol_64v"/>
+         <pb n="65r" xml:id="DALB_fol_65r"/>
+         <pb n="65v" xml:id="DALB_fol_65v"/>
+         <pb n="66r" xml:id="DALB_fol_66r"/>
+         <pb n="66v" xml:id="DALB_fol_66v"/>
+         <pb n="67r" xml:id="DALB_fol_67r"/>
+         <pb n="67v" xml:id="DALB_fol_67v"/>
+      </body>
+   </text>
+</TEI>

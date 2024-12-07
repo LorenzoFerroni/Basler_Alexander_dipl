@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+   <text xml:id="Normalized">
+      <body>
+         <pb n="1"></pb>
+         <l n="1"><lb n="1"/>
+            <choice>
+               <sic>uo</sic>
+               <corr>&lt;Z&gt;uo</corr>
+            </choice> Egiptten Nectanibus küng was,</l>
+         <l n="2"><lb n="2"/>als ich von im geschriben las.</l>
+         <l n="3"><lb n="3"/>In astronimy sinem rich</l>
+         <l n="4"><lb n="4"/>was er und sin gelich</l>
+         <l n="5"><lb n="5"/>niendert noch in nigramacye,</l>
+         <l n="6"><lb n="6"/>die wont im eigentlichen by.</l>
+         <l n="7"><lb n="7"/>Eins tages kam es also,</l>
+         <l n="8"><lb n="8"/>daz dem künge Nettanibo</l>
+         <l n="9"><lb n="9"/>botte<hi rend="italic">n</hi> wurden gesant</l>
+         <l n="10"><lb n="10"/>von 
+            <app>
+               <lem>dem</lem>
+               <rdg>den</rdg>
+            </app> fürsten us P<hi rend="italic">er</hi>sarum lant,</l>
+         <l n="11"><lb n="11"/>daz er im woltte schaden</l>
+         <l n="12"><lb n="12"/>mit hers kreften überladen.</l>
+         <l n="13"><lb n="13"/>Dar uf acht er klein:</l>
+         <l n="14"><lb n="14"/>Er gie in sin kamer ein</l>
+         <l n="15"><lb n="15"/>und saczte für sich ein bekelin;</l>
+         <l n="16"><lb n="16"/>regen wasser gos er dar in.</l>
+         <l n="17"><lb n="17"/>In die hant nam er ein erin ruot,</l>
+         <l n="18"><lb n="18"/>die im was zem zouffer guot.</l>
+         <l><lb/>&lt;...&gt;</l>
+         <l n="19"><lb n="19"/>Die begunde er besweren ze hant,</l>         
+         <l n="20"><lb n="20"/>daz im wurden die erkant,</l>
+         <l n="21"><lb n="21"/>die in in sin lant soltten</l>
+         <l n="22"><lb n="22"/>und in betw<hi rend="italic">i</hi>ngen woltten:</l>
+         <l n="23"><lb n="23"/>daz er da wider sacztte ze huot</l>
+         <l n="24"><lb n="24"/>fürsten und ritt<hi rend="italic">er</hi> guot.</l>
+         <l n="25"><lb n="25"/>Do komen im mer,</l>
+         <l n="26"><lb n="26"/>daz der küng P<hi rend="italic">er</hi>sarum wer</l>
+         <l n="27"><lb n="27"/>komen in sin lant</l>
+         <l n="28"><lb n="28"/>und 
+            <app>
+               <lem>es</lem>
+               <rdg><choice><sic>in</sic></choice></rdg>
+            </app> roubt und brannt.</l>
+         <l n="29"><lb n="29"/>Nektanibus, der ward unfro.</l>
+         <l n="30"><lb n="30"/>Zuo <choice><orig><sic>den</sic></orig><reg><corr>dem</corr></reg></choice> botten sprach er do:</l>
+         <l n="31"><lb n="31"/>"Du solt wider hein varn,</l>
+         <l n="32"><lb n="32"/>die vesti heis wol bewarn".</l>
+         <l n="33"><lb n="33"/>Ze hant sprach der botte do</l>
+         <l n="34"><lb n="34"/>zuo dem küng Nektanibo:</l>
+         <l n="35"><lb n="35"/>"Du redest, her, gar forchtlich,</l>
+         <l n="36"><lb n="36"/>und nicht als ein fürst rich,</l>
+         <l n="37"><lb n="37"/>sid du dich dar an last,</l>
+         <l n="38"><lb n="38"/>daz du der liut vil hast.</l>
+         <l n="39"><lb n="39"/>Die mengi der liutten ist seltten guot,</l>
+         <l n="40"><lb n="40"/>si haben den vereintten muot".</l>
+         <l n="41"><lb n="41"/>Ze der rede sweig er do.</l>
+         <l n="42"><lb n="42"/>In sini kamer gieng er do</l>
+         <l n="43"><lb n="43"/>und wolt mit zouber vinden,</l>
+         <l n="44"><lb n="44"/>ob er sin vigent mœcht überwinden.</l>
+         <l n="45"><lb n="45"/>Do er des nicht envant,</l>
+         <l n="46"><lb n="46"/>ab sneid er sin hor ze hant,</l>
+         <l n="47"><lb n="47"/>er verwandlet sin gestalt.</l>
+         <l n="48"><lb n="48"/>Sinen schrin hies er füllen balt</l>
+         <l n="49"><lb n="49"/>mit schacz und mit golde,</l>
+         <l n="50"><lb n="50"/>als ers den haben woltte.</l>
+         <l n="51"><lb n="51"/>Da mit wolt er sich fristen</l>
+         <l n="52"><lb n="52"/>ze andren sinen listen.</l>
+         <l n="53"><lb n="53"/>Hiemit rumet er die veste sin</l>
+         <l n="54"><lb n="54"/>und kam zuo der stat Belusin,</l>
+         <l n="55"><lb n="55"/>da nach ze Ethyopi in daz land.</l>
+         <l n="56"><lb n="56"/>An leit er wis beinin gewant,</l>
+         <l n="57"><lb n="57"/>daz er ze Mazidoni wurd erkant</l>
+         <l n="58"><lb n="58"/>für einen wissagen dar gesant</l>
+         <l n="59"><lb n="59"/>durch der &lt;E&gt;thyopen.</l>
+         <l n="60"><lb n="60"/>Er ...</l>
+         <l n="61"><lb n="61"/>und wissagtte wislichen</l>
+         <l n="62"><lb n="62"/>armen und rich:</l>
+         <l n="63"><lb n="63"/>Si batten in sagen do</l>
+         <l n="64"><lb n="64"/>von dem künge Niktanibo.</l>
+         <l n="65"><lb n="65"/>Als er die froge vernam,</l>
+         <l n="66"><lb n="66"/>er rette als ein wisser man:</l>
+         <l n="67"><lb n="67"/>Sin laster wolt er nicht sagen,</l>
+         <l n="68"><lb n="68"/>die wil er es mocht vertagen.</l>
+      </body>
+  </text>
+</TEI>
